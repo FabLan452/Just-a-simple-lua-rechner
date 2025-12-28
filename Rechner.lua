@@ -2,7 +2,7 @@ Numbers = {
     ["Number1"] = 0,
     ["Number2"] = 0,
 }
-print("Please the first number you want to calculate")
+print("Please enter the first number you want to calculate")
 print("(Type help if you do not know how to use this programm)")
 Input = io.read()
 while Input == "help" do
@@ -32,4 +32,5 @@ elseif Symbol == "*" then
     print("Your calculated Number is " .. Result)
 else
 print("An Error occurred")
+
 end
